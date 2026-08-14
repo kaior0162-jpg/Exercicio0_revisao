@@ -1,6 +1,8 @@
-num = int(input("Digite um numero:"))
+num = float(input("Digite um numero:"))
 
-if num >= 0:
+if num > 0:
     print(f"{num} positivo!")
-else :
+elif num < 0:
     print(f"{num} negativo!")
+else :
+    print(f"{num} é Neutro")
